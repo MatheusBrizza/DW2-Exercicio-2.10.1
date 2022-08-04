@@ -4,7 +4,7 @@ import './style.css';
 export default function App() {
   return (
     <div className="main-content">
-      <img src="https://www.elo7.com.br/poster-impresso-netflix-logo/dp/127EDB3" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" />
       <div className="loginBody">
         <div className="loginBox">
           <h2>Entrar</h2>
@@ -32,16 +32,16 @@ export default function App() {
               <span>Lembre-se de mim</span>
             </span>
           </div>
-          <div class="help">
+          <div className="help">
             <a href="#">Precisa de ajuda?</a>
           </div>
         </div>
-        <div class="sign_up">
+        <div className="sign_up">
           <p>
             Novo por aqui? <a href="#">Assine agora.</a>
           </p>
         </div>
-        <div class="terms">
+        <div className="terms">
           <p>
             Esta página é protegida pelo Google reCAPTCHA para garantir que você
             não é um robô. <a href="#">Saiba mais</a>
